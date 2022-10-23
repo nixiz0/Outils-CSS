@@ -9,16 +9,25 @@
     <link rel="stylesheet" href="./animations.css">
     <title> Animations CSS </title>
 </head>
-<body>
-    <header>
+<body id="body">
+    <header id="header">
         <div class="main_title">
-            <h1><a href="../index.html"> Outils CSS </a></h1>
+            <h1><a id="nav" href="../index.html"> Outils CSS </a></h1>
         </div>
         <div class="sous_title">
-            <h2><a style="color:white; text-decoration:underline;" class="txt_sous_nav" href="./animations.html"> Animations </a></h2>
-            <h2><a class="txt_sous_nav" href="../Styles/styles.html"> Styles </a></h2>
+            <h2><a id="nav1" style="color:white; text-decoration:underline;" class="txt_sous_nav" href="./animations.html"> Animations </a></h2>
+            <h2><a id="nav2" class="txt_sous_nav" href="../Styles/styles.html"> Styles </a></h2>
         </div>
     </header>
+
+    <div class="all_btn">
+        <div class="bouton">
+            <button id="main_btn" class="btnBlack" onclick="changeBack()"> Black-Background </button>
+        </div>
+        <div class="bouton">
+            <button id="main_btn" class="btnWhite" onclick="rechangeBack()"> White-Background </button>
+        </div>
+    </div>
 
     <div class="title_page">
         <h1 class="h1_page"> Animations CSS (keyframes) </h1>
@@ -27,13 +36,13 @@
     <div class="main_all">
         <div class="main_content">
             <div>
-                <div>
+                <div class="titre_article">
                     <h3><a class="txt_content" href="https://animista.net/" target="_blank"> Animation blocks & Texts </a></h3>
                 </div>
                 <img class="img_site" src="../../Ressources/animations/animista.png">
             </div>
             <div>
-                <div>
+                <div class="titre_article">
                     <h3><a class="txt_content" href="https://webcode.tools/generators/css/keyframe-animation" target="_blank"> Animation blocks </a></h3>
                 </div>
                 <img class="img_site" src="../../Ressources/animations/webcode.png">
@@ -42,13 +51,13 @@
 
         <div class="main_content">
             <div>
-                <div>
+                <div class="titre_article">
                     <h3><a class="txt_content" href="https://wweb.dev/resources/animated-css-background-generator/" target="_blank"> Fiew background animate </a></h3>
                 </div>
                 <img class="img_site" src="../../Ressources/animations/wwebdev.png">
             </div>
             <div>
-                <div>
+                <div class="titre_article">
                     <h3><a class="txt_content" href="https://www.theappguruz.com/tag-tools/web/CSSAnimations/" target="_blank"> Effects slide </a></h3>
                 </div>
                 <img class="img_site" src="../../Ressources/animations/theappguruz.png">
@@ -57,13 +66,13 @@
 
         <div class="main_content">
             <div>
-                <div>
+                <div class="titre_article">
                     <h3><a class="txt_content" href="https://angrytools.com/css/animation/" target="_blank"> Animation kit </a></h3>
                 </div>
                 <img class="img_site" src="../../Ressources/animations/angrytools.png">
             </div>
             <div>
-                <div>
+                <div class="titre_article">
                     <h3><a class="txt_content" href="https://kristofferandreasen.github.io/wickedCSS/#" target="_blank"> Fiew Image animations </a></h3>
                 </div>
                 <img class="img_site" src="../../Ressources/animations/kristofferandreasen.png">
@@ -72,13 +81,13 @@
 
         <div class="main_content">
             <div>
-                <div>
+                <div class="titre_article">
                     <h3><a class="txt_content" href="https://keyframes.app/" target="_blank"> Keyframes app </a></h3>
                 </div>
                 <img class="img_site" src="../../Ressources/animations/keyframes-app.png">
             </div>
             <div>
-                <div>
+                <div class="titre_article">
                     <h3><a class="txt_content" href="https://www.doozytools.com/dev-tools/css-animation-generator" target="_blank"> Mutliple Animations </a></h3>
                 </div>
                 <img class="img_site" src="../../Ressources/animations/multiple-anim.png">
@@ -86,5 +95,7 @@
         </div>
 
     </div>
+
+    <script src="./change_background.js"></script>
 </body>
 </html>

@@ -35,6 +35,33 @@ header {
         font-size: 1.3em;
     }
 
+.all_btn {
+    display: flex;
+    justify-content: center;
+}
+
+.bouton {
+    padding: 1em;
+    margin-right: 2em;
+    display: flex;
+    justify-content: flex-end;
+}
+
+    .btnBlack {
+        font-size: 0.5em;
+        padding: 0.7em;
+        border-radius: 5%;
+        background-color: rgb(49, 49, 49);
+        color:white;
+    }
+
+    .btnWhite {
+        font-size: 0.5em;
+        padding: 0.7em;
+        border-radius: 5%;
+        background-color: white;
+    }
+
 article {
     padding: 1em;
     text-align: center;
@@ -66,6 +93,19 @@ article {
             padding: 1em;
             font-size: 1em;
         }
+
+    .bouton {
+        padding: 1em;
+        margin-right: 2em;
+    }
+    
+        .btnBlack {
+            font-size: 0.8em;
+        }
+    
+        .btnWhite {
+            font-size: 0.8em;
+        } 
 
     article {
         padding: 1em;
@@ -99,6 +139,23 @@ article {
         .txt_sous_nav {
             padding: 1em;
             font-size: 1.3em;
+        }
+
+    .all_btn {
+        display: block;
+    }
+
+    .bouton {
+        padding: 1em;
+        margin-right: 2em;
+    }
+
+        .btnBlack {
+            font-size: 0.9em;
+        }
+
+        .btnWhite {
+            font-size: 0.9em;
         }
 
     article {

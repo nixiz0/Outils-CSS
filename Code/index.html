@@ -9,16 +9,26 @@
     <link rel="stylesheet" href="./index.css">
     <title> Outils CSS </title>
 </head>
-<body>
-    <header>
+<body id="body">
+    <header id="header">
         <div class="main_title">
             <h1><a style="color:white; text-decoration:underline;" href="./index.html"> Outils CSS </a></h1>
         </div>
         <div class="sous_title">
-            <h2><a class="txt_sous_nav" href="./Animations/animations.html"> Animations </a></h2>
-            <h2><a class="txt_sous_nav" href="./Styles/styles.html"> Styles </a></h2>
+            <h2><a id="nav1" class="txt_sous_nav" href="./Animations/animations.html"> Animations </a></h2>
+            <h2><a id="nav2" class="txt_sous_nav" href="./Styles/styles.html"> Styles </a></h2>
         </div>
     </header>
+
+    <div class="all_btn">
+        <div class="bouton">
+            <button id="main_btn" class="btnBlack" onclick="changeBack()"> Black-Background </button>
+        </div>
+        <div class="bouton">
+            <button id="main_btn" class="btnWhite" onclick="rechangeBack()"> White-Background </button>
+        </div>
+    </div>
+
     <article>
         <div>
             <h1> Welcome </h1>
@@ -33,5 +43,7 @@
             <h4> Votre Créativité Sera La Seule Limite ! </h4>
         </div>
     </article>
+
+    <script src="./change_background.js"></script>
 </body>
 </html>

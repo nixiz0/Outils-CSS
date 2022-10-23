@@ -9,16 +9,25 @@
     <link rel="stylesheet" href="./styles.css">
     <title> Styles CSS </title>
 </head>
-<body>
-    <header>
+<body id="body">
+    <header id="header">
         <div class="main_title">
-            <h1><a href="../index.html"> Outils CSS </a></h1>
+            <h1><a id="nav" href="../index.html"> Outils CSS </a></h1>
         </div>
         <div class="sous_title">
-            <h2><a class="txt_sous_nav" href="../Animations/animations.html"> Animations </a></h2>
-            <h2><a style="color:white; text-decoration:underline;" class="txt_sous_nav" href="./styles.html"> Styles </a></h2>
+            <h2><a id="nav1" class="txt_sous_nav" href="../Animations/animations.html"> Animations </a></h2>
+            <h2><a id="nav2" style="color:white; text-decoration:underline;" class="txt_sous_nav" href="./styles.html"> Styles </a></h2>
         </div>
     </header>
+
+    <div class="all_btn">
+        <div class="bouton">
+            <button id="main_btn" class="btnBlack" onclick="changeBack()"> Black-Background </button>
+        </div>
+        <div class="bouton">
+            <button id="main_btn" class="btnWhite" onclick="rechangeBack()"> White-Background </button>
+        </div>
+    </div>
 
     <div class="title_page">
         <h1 class="h1_page"> Styles CSS </h1>
@@ -27,19 +36,19 @@
     <div class="main_all">
         <div class="main_content">
             <div>
-                <div>
+                <div class="titre_article">
                     <h3><a class="txt_content" href="https://html-css-js.com/css/generator/text-shadow/" target="_blank"> Text / Box Shadow </a></h3>
                 </div>
                 <img class="img_site" src="../../Ressources/styles/text-shadow.png">
             </div>
             <div>
-                <div>
+                <div class="titre_article">
                     <h3><a class="txt_content" href="https://markodenic.com/tools/buttons-generator/" target="_blank"> Button Generator </a></h3>
                 </div>
                 <img class="img_site" src="../../Ressources/styles/markodenic.png">
             </div>
             <div>
-                <div>
+                <div class="titre_article">
                     <h3><a class="txt_content" href="https://cssgrid-generator.netlify.app/" target="_blank"> Grid Generator </a></h3>
                 </div>
                 <img class="img_site" src="../../Ressources/styles/cssgrid.png">
@@ -48,19 +57,19 @@
 
         <div class="main_content">
             <div>
-                <div>
+                <div class="titre_article">
                     <h3><a class="txt_content" href="https://getwaves.io/" target="_blank"> CSS Waves </a></h3>
                 </div>
                 <img class="img_site" src="../../Ressources/styles/waves.png">
             </div>
             <div>
-                <div>
+                <div class="titre_article">
                     <h3><a class="txt_content" href="https://9elements.github.io/fancy-border-radius/" target="_blank"> Border-Radius </a></h3>
                 </div>
                 <img class="img_site" src="../../Ressources/styles/border-radius.png">
             </div>
             <div>
-                <div>
+                <div class="titre_article">
                     <h3><a class="txt_content" href="https://coolors.co/" target="_blank"> Colors Palette </a></h3>
                 </div>
                 <img class="img_site" src="../../Ressources/styles/color-palette.png">
@@ -69,19 +78,19 @@
 
         <div class="main_content">
             <div>
-                <div>
+                <div class="titre_article">
                     <h3><a class="txt_content" href="https://markodenic.com/tools/qr-code-generator/" target="_blank"> QRCode Generator </a></h3>
                 </div>
                 <img class="img_site" src="../../Ressources/styles/qrcode-generator.png">
             </div>
             <div>
-                <div>
+                <div class="titre_article">
                     <h3><a class="txt_content" href="https://css-generator.netlify.app/" target="_blank"> CSS Generator Text </a></h3>
                 </div>
                 <img class="img_site" src="../../Ressources/styles/css-generator.png">
             </div>
             <div>
-                <div>
+                <div class="titre_article">
                     <h3><a class="txt_content" href="https://www.cssportal.com/css-generators.php" target="_blank"> Multiple CSS generator </a></h3>
                 </div>
                 <img class="img_site" src="../../Ressources/styles/css-generator-multiple.png">
@@ -89,5 +98,7 @@
         </div>
 
     </div>
+
+    <script src="./change_background.js"></script>
 </body>
 </html>

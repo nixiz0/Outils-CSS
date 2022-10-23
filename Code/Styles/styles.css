@@ -25,6 +25,12 @@ header {
         display: flex;
     }
 
+    
+    .titre_article {
+        background-color: rgb(242, 242, 242);
+        border-radius: 3%;
+    }
+
     a {
         color:rgb(56, 56, 56);
         text-decoration: none;
@@ -34,6 +40,33 @@ header {
         padding: 1em;
         font-size: 1.3em;
     }
+
+    .all_btn {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .bouton {
+        padding: 1em;
+        margin-right: 2em;
+        display: flex;
+        justify-content: flex-end;
+    }
+    
+        .btnBlack {
+            font-size: 0.5em;
+            padding: 0.7em;
+            border-radius: 5%;
+            background-color: rgb(49, 49, 49);
+            color:white;
+        }
+    
+        .btnWhite {
+            font-size: 0.5em;
+            padding: 0.7em;
+            border-radius: 5%;
+            background-color: white;
+        }
 
 .title_page {
     font-size: 1.2em;
@@ -117,6 +150,19 @@ header {
             font-size: 1em;
         }
 
+        .bouton {
+            padding: 1em;
+            margin-right: 2em;
+        }
+            
+            .btnBlack {
+                font-size: 0.8em;
+            }
+            
+            .btnWhite {
+                font-size: 0.8em;
+            } 
+
     article {
         padding: 1em;
         text-align: center;
@@ -169,9 +215,26 @@ header {
             }
 
             .h1_page:hover {
-                background-color: rgb(226, 226, 226);
+                background-color: rgb(185, 185, 185);
             }
         
+        .all_btn {
+            display: block;
+        }
+            
+        .bouton {
+            padding: 1em;
+            margin-right: 2em;
+        }
+        
+            .btnBlack {
+                font-size: 0.9em;
+            }
+            
+            .btnWhite {
+                font-size: 0.9em;
+            }
+    
         .main_content {
             margin-top: 2em;
             font-size: 1.4em;
