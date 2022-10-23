@@ -147,14 +147,24 @@ header {
         .title_page {
             font-size: 1.2em;
         }
-        
+
             .h1_page {
                 padding: 0.2em;
+            }
+
+            .h1_page:hover {
+                background-color: rgb(226, 226, 226);
             }
         
         .main_content {
             margin-top: 2em;
             font-size: 1.4em;
         }
-    
+
+        .img_site:hover {
+            box-shadow: -2px 2px 30px -3px white;
+            -webkit-box-shadow: -2px 2px 30px -3px white;
+            -moz-box-shadow: -2px 2px 30px -3px white;
+        }
+        
 }
