@@ -20,7 +20,7 @@ function changeBack() {
     nav3.style.color = "rgb(242, 242, 242)";
 
     btn.style.backgroundColor = "rgb(49, 49, 49)";
-    btn.style.color = "white"
+    btn.style.color = "white";
 
 }
 
@@ -37,6 +37,6 @@ function rechangeBack() {
     nav3.style.color = "rgb(56, 56, 56)";
 
     btn.style.backgroundColor = "rgb(49, 49, 49)";
-    btn.style.color = "white"
+    btn.style.color = "white";
 }
 

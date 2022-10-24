@@ -129,6 +129,7 @@ header {
 
 
 
+/* adaptation format Tablette */
 @media (min-width:600px) {
 
     header {
@@ -185,6 +186,7 @@ header {
 
 
 
+/* adaptation format Ordinateur */
 @media (min-width:1000px) {
 
     header {

@@ -70,6 +70,7 @@ article {
 
 
 
+/* adaptation format Tablette */
 @media (min-width:600px) {
 
     header {
@@ -117,6 +118,7 @@ article {
 
 
 
+/* adaptation format Ordinateur */
 @media (min-width:1000px) {
 
     header {
