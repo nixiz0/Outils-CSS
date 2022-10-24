@@ -33,8 +33,8 @@ function rechangeBack() {
 
     nav.style.color = "rgb(56, 56, 56)"
     nav1.style.color = "rgb(56, 56, 56)";
-    nav2.style.color = "white";
-    nav3.style.color = "rgb(56, 56, 56)";
+    nav2.style.color = "rgb(56, 56, 56)";
+    nav3.style.color = "white";
 
     btn.style.backgroundColor = "rgb(49, 49, 49)";
     btn.style.color = "white"

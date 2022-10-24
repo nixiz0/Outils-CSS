@@ -31,7 +31,7 @@ header {
     }
 
     .txt_sous_nav {
-        padding: 1em;
+        padding: 0.6em;
         font-size: 1.3em;
     }
 
@@ -90,7 +90,7 @@ article {
         }
 
         .txt_sous_nav {
-            padding: 1em;
+            padding: 0.9em;
             font-size: 1em;
         }
 
