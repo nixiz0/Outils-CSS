@@ -68,6 +68,17 @@ article {
     font-size: 1.3em
 }
 
+.footer_main {
+    text-align: center;
+    font-size: 1em;
+    font-weight: 600;
+}
+
+    .ytb_logo {
+        width: 4em;
+        height: auto;
+    }
+
 
 
 /* adaptation format Tablette */
@@ -113,6 +124,14 @@ article {
         text-align: center;
         font-size: 1.5em
     }
+
+    .footer_main {
+        font-size: 1.3em;
+    }
+
+        .ytb_logo {
+            width: 5em;
+        }
 
 }
 
@@ -164,5 +183,13 @@ article {
         padding: 2em;
         font-size: 2em
     }
+
+    .footer_main {
+        font-size: 1.5em;
+    }
+
+        .ytb_logo {
+            width: 6em;
+        }
 
 }

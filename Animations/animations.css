@@ -109,6 +109,18 @@ header {
     -moz-box-shadow: -2px 2px 30px -3px rgba(98, 191, 234, 0.76);
 }
 
+.footer_main {
+    text-align: center;
+    font-size: 1em;
+    font-weight: 600;
+    margin-top: 3em;
+}
+
+    .ytb_logo {
+        width: 4em;
+        height: auto;
+    }
+
 
 
 /* adaptation format Tablette */
@@ -163,6 +175,14 @@ header {
         font-size: 1.1em;
         text-align:center;
     }
+
+    .footer_main {
+        font-size: 1.3em;
+    }
+
+        .ytb_logo {
+            width: 5em;
+        }
 
 }
 
@@ -229,5 +249,13 @@ header {
             -webkit-box-shadow: -2px 2px 30px -3px white;
             -moz-box-shadow: -2px 2px 30px -3px white;
         }
+
+        .footer_main {
+            font-size: 1.5em;
+        }
+    
+            .ytb_logo {
+                width: 6em;
+            }
         
 }
