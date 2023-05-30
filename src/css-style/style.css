@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+    background-color:rgb(59, 58, 58);
+    color: rgb(242, 242, 242);
+}
+
+.title_page {
+    font-size: 0.6em;
+    display: flex;
+    justify-content: center;
+}
+
+    .h1_page {
+        padding: 0.1em;
+        border-right: 0.15em solid #515151;
+        border-radius: 30px 30px 30px 30px;
+        border-left: 0.15em solid #515151;
+        border-radius: 30px 30px 30px 30px; 
+        border-bottom: 0.2em solid #515151;
+        border-top: 0.1em solid #515151;
+        transition: all 0.2s ease-in-out;
+    }
+
+    .h1_page:hover {
+        background-color: #515151;
+        transition: all 0.2s ease-in-out;
+    }
+
+.main_all {
+    margin-bottom: 4em;
+}
+
+.main_content {
+    margin-top: 2em;
+    font-size: 0.7em;
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.txt_content {
+    color: white;
+    text-shadow: 2px 3px 3px rgba(30, 30, 30, 0.79);
+    border-bottom: 0.2em solid rgba(57, 57, 57, 0.79);
+}
+
+.txt_content:hover {
+    color: rgb(226, 226, 226);
+    text-shadow: 2px 3px 3px rgba(71, 71, 71, 0.79);
+}
+
+.img_site {
+    border-radius: 2%;
+    width: 10em;
+    height: auto;
+    box-shadow: -2px 2px 20px -3px rgba(98, 191, 234, 0.3);
+    -webkit-box-shadow: -2px 2px 20px -3px rgba(98, 191, 234, 0.3);
+    -moz-box-shadow: -2px 2px 20px -3px rgba(98, 191, 234, 0.3);
+}
+
+.img_site:hover {
+    box-shadow: -2px 2px 20px -3px rgba(233, 233, 233, 0.4);
+    -webkit-box-shadow: -2px 2px 20px -3px rgba(233, 233, 233, 0.4);
+    -moz-box-shadow: -2px 2px 20px -3px rgba(233, 233, 233, 0.4);
+}
+
+
+@media (min-width:600px) {
+    article {
+        padding: 1em;
+        text-align: center;
+        font-size: 1.5em
+    }
+
+    .title_page {
+        font-size: 0.9em;
+    }
+
+    .main_content {
+        margin-top: 2em;
+        font-size: 1.1em;
+    }
+}
+
+
+@media (min-width:1000px) {
+        .main_content {
+            margin-top: 2em;
+            font-size: 1.4em;
+        }
+}

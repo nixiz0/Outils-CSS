@@ -1,0 +1,32 @@
+.footer_main {
+    text-align: center;
+    font-size: 1em;
+    font-weight: 600;
+}
+
+    .ytb_logo {
+        width: 4em;
+        height: auto;
+    }
+
+    
+@media (min-width:600px) {
+    .footer_main {
+        font-size: 1.3em;
+    }
+
+        .ytb_logo {
+            width: 5em;
+        }
+}
+
+
+@media (min-width:1000px) {
+    .footer_main {
+        font-size: 1.5em;
+    }
+
+        .ytb_logo {
+            width: 6em;
+        }
+}
