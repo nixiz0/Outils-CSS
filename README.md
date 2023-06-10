@@ -10,6 +10,8 @@ Go to this link : https://outils-css.netlify.app/
 ## Tech Stack
 
 **Build:** React, HTML, CSS, JavaScript
+**Packages:** NodeJS, React, React-router & React-helmet
+
 
 **Server:** Netlify
 
