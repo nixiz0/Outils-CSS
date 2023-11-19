@@ -13,6 +13,7 @@ function Navbar() {
             <h2><Link class="txt_sous_nav" to="/animations"> Animations </Link></h2>
             <h2><Link class="txt_sous_nav" to="/styles"> Styles </Link></h2>
             <h2><Link class="txt_sous_nav" to="/seo"> SEO </Link></h2>
+            <h2><Link class="txt_sous_nav" to="/ia"> IA </Link></h2>
             <h2><Link class="txt_sous_nav" to="/others"> Autres </Link></h2>
         </div>
     </header>

@@ -4,6 +4,7 @@ import App from './App.jsx'
 import Animations from './Animations.jsx'
 import Styles from './Styles.jsx'
 import SEO from './Seo.jsx'
+import IA from './Ia.jsx'
 import Others from './Others.jsx'
 
 import {
@@ -28,6 +29,10 @@ const router = createBrowserRouter([
     {
         path: "/seo",
         element: <SEO />,
+    },
+    {
+        path: "/ia",
+        element: <IA />,
     },
     {
         path: "/others",
